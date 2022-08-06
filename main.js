@@ -13,8 +13,6 @@ function convertArrayToObject(arr) {
 function migratoryBirds(arr) {
     arr = arr.sort();
     let map = convertArrayToObject(arr);
-    let minElement = arr[0];
-    let maxElement = arr[arr.length - 1];
 
     let maxValue = 0;
     let result = 0;
